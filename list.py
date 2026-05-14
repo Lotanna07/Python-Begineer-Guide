@@ -27,4 +27,7 @@ numbers.sort()
 print(numbers)
 
 
+#len(): returns the number of items in a list
+print(len(fruits))
+
 print(fruits)
