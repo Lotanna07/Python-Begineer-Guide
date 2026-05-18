@@ -10,14 +10,22 @@ student ={
 
 }
 
+print(student.keys())
+print(student.values())
+print(student.get("name"))
+
 #accessing and modifying values 
 
-print(student["age"])
-print(student("grade"))
-print(student.get("grade"))
+#print(student["age"])
+#print(student("grade"))
+#print(student.get("grade"))
 
 
-student["age"] = 21
-student ["major"] ="math"
+#student["age"] = 21
+#student ["major"] ="math"
 
-print(student)
+#print(student)
+
+#loop through a dictionary
+for key, value in student.item():
+    print(f"{key} : {value}")
